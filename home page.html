@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>BP NEET & JEE Academy</title>
+        <link rel="stylesheet" href="design.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="home page.html"><img src="images/cross-png.webp"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="specialities.html">Specialities</a></li>
+                   <!----- <li><a href="our doctors.html">Our Doctors</a></li> -->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick=showMenu()></i>
+        </nav>
+<div class="text-box">
+    <h1>BP NEET & JEE Couching Centre</h1>
+    <p>Failures are ignored by the winners . We are here to generate the Winners</p>
+    <a href="booking - Copy.html" class="hero-btn">Contact our faculties</a>
+</div>
+
+
+    </section>
+<!-------------course----------->
+
+<section class="course">
+    <h1>Courses we offer</h1>
+    
+
+    <div class="row">
+        <div class="course-col">
+            <h3>NEET - UG</h3>
+            <p>Our NEET - UG course is designed for students aiming to enhance their performance and secure a better rank in the NEET exam</p>
+        </div>
+        <div class="course-col">
+            <h3>NEET - PG</h3>
+            <p>Our NEET - PG course is designed for students aiming to enhance their performance and secure a better rank in the NEET exam</p>
+        </div>
+        <div class="course-col">
+            <h3>JEE MAINS & ADVANCED</h3>
+            <p>Our JEE MAINS & ADVANCED course is designed for students aiming to enhance their performance and secure a better rank in the JEE exam</p>
+        </div>
+    </div>
+</section>
+
+<!----------campus---------->
+
+<section class="campus">
+    <h1>Why BP?</h1>
+    <p>Unlock True Potential Through Highest Personal Attention. <br> At BP we provide highest personal attention through our Student Obsessed Heroes and our Tech-integrated Systems</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/chennai.jpg">
+            <!---<div class="layer">
+                <h3>CHENNAI</h3>
+            </div>---->
+        </div>
+        <div class="campus-col">
+            <img src="images/maddd.jpg">
+            
+        </div>
+      <!----- <div class="campus-col">
+            <img src="images/cuddd.jpg">
+            
+        </div> -->
+    </div>
+</section>
+
+<!-------facilities---------->
+
+<section class="facilities">
+    <h1>The Best Interactive Learning Experience</h1>
+   <!------ <p>we are committed to improving life through outstanding healthcare. A 400-bed quaternace care multi-specialty hospital in the heart of your city.</p> -->
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/lab1.jpg">
+            <h3>3D Visualisations</h3>
+            <p>Master Teacher teaches every concept using highly engaging and immersive 3D visualisations</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/surgeon1.jpg">
+            <h3>Interactive Clickers</h3>
+            <p>Every student is equipped with Clickers and can actively participate in class</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/spsr1.jpg">
+            <h3>Gamified Classrooms</h3>
+            <p>Students can engage in gamified learning with Quizzes, Leaderboards and fastest finger first challenges</p>
+        </div>
+    </div>
+</section>
+
+<!----------testimonials--------------->
+
+<section class="testimonials">
+    <h1>Our Sudents Contentedness</h1>
+    <p>we are committed to upgrade and enhance our students life through outstanding tutoring.</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/p1.jpg">
+            <div>
+                <p>My heartfelt thanks to BP !! Today my son is a successful engineer in the city . Hope everyone who dreaming to achieve big will win in life by joining in BP.</p>
+                <h3>Mohamed ghaney</h3>
+             
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/p3.jpg">
+            <div>
+                <p>I came to  BP without having a basic knowledge about  Engineering. But today I am studying in the prestigious university in our State. Thanks to BP to pursue my dream</p>
+                <h3>Kavya</h3>
+             
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------call to action------------>
+
+<section class="cta">
+    <h1>Apply your seats anywhere from India <br>through the online</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!--------footer------------>
+
+<section class="footer">
+    <h1>About Us</h1>
+    <p>we are committed to upgrade and enhance our students life through outstanding tutoring. <br>Apply your seats anywhere from the India through the online</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+  <!----  <p>Made With <i class="fa fa-heart-o"></i> By Easy Our Developers</p> -->
+</section>
+
+<!------javascript toggle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
